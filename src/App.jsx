@@ -1,14 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+
+import Home from "./components/Home.jsx";
+import Nav from './components/Nav.jsx';
+import InfoPage from './components/InfoPage.jsx';
+
 
 
 function App() {
   return (
     <div>
       <Router>
+        <Nav />
         <Routes>
-          <Route path="/" element={} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/programming/:name" element={<InfoPage/>} />
         </Routes>
       </Router>
     </div>
