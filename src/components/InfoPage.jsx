@@ -1,9 +1,11 @@
 import {useParams} from 'react-router-dom';
-import './Html.jsx';
-import './Css.jsx';
-import './Javascript.jsx';
-import './React.jsx';
+import HtmlInfo from './HtmlInfo.jsx';
+import CssInfo from './CssInfo.jsx';
+import JavascriptInfo from './JavascriptInfo.jsx';
+import ReactInfo from './ReactInfo.jsx';
 import React, {useEffect} from 'react';
+import './InfoPage.css'
+
 
 function InfoPage() {
     const { name } = useParams()
@@ -21,11 +23,21 @@ function InfoPage() {
         resetActivePage()
     })
 
-    return(
-        <div>
+    switch(name){
+        case 'HTML':
+            return(<HtmlInfo />)
+            
+        case 'CSS':
+            return(<CssInfo />)
+        
+        case 'JavaScript':
+            return(<JavascriptInfo />)
+        
+        case 'React':
+            return(<ReactInfo />)
 
-        </div>
-    );
+    }
+    
 }
 
 export default InfoPage;
