@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 60%;
+    height: 80%;
+    row-gap: 20%;
+    grid-row-start: center;
+    margin: 48px auto;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo {
+    width: 75%;
+    height: 75%;
+    max-width: 200px;
+    max-height: 200px;
+    transition: all 500ms ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.logo:active {
+    transform: scale(0.9);
+}

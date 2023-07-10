@@ -2,6 +2,31 @@
     display: flex;
     flex-direction: column;
     margin-top: 48px;
-    width: 90%;
-    
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.infoPoint {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.info__title {
+    color: #609966;
+    /* font-weight: 700; */
+}
+
+.info__para {
+    color: #F7FFE5;
+}
+
+.info__img {
+    max-height: 600px;
+    max-width: 400px;
+    align-self: center;
 }

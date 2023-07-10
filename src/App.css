@@ -5,6 +5,23 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: #A0C49D;
+}
+
 .active-page {
-  color: green !important;
+  color: #000000 !important;
+  font-weight: 600;
+}
+
+.title {
+  text-align: center;
+  padding-top: 24px;
+  font-size: 36px;
+  color: #40513B;
+}
+
+.app {
+  background-color: #A0C49D;
+  height: 100%;
 }

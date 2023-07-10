@@ -5,22 +5,14 @@ import JavascriptInfo from './JavascriptInfo.jsx';
 import ReactInfo from './ReactInfo.jsx';
 import React, {useEffect} from 'react';
 import './InfoPage.css'
+import Home from './Home.jsx';
 
 
-function InfoPage() {
+function InfoPage({reset}) {
     const { name } = useParams()
 
-    function resetActivePage() {
-        let links = document.getElementsByClassName('nav__link')
-        for (let i = 0; i < links.length; i++){
-            links[i].classList.remove("active-page")
-        }
-        const current = document.getElementById(name)
-        current.classList += " active-page" 
-    }
-
     useEffect(()=>{
-        resetActivePage()
+        reset(name)
     })
 
     switch(name){
@@ -36,6 +28,8 @@ function InfoPage() {
         case 'React':
             return(<ReactInfo />)
 
+        default:
+            return (<Home />)
     }
     
 }
