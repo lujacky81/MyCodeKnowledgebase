@@ -25,3 +25,19 @@ body {
   background-color: #A0C49D;
   height: 100%;
 }
+
+.code {
+  font-family: monospace;
+}
+
+.url {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  width: fit-content;
+}
+
+code {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: fit-content;
+}
