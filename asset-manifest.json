@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyCodeKnowledgebase/static/css/main.c5642360.css",
-    "main.js": "/MyCodeKnowledgebase/static/js/main.c967df34.js",
+    "main.js": "/MyCodeKnowledgebase/static/js/main.4515e032.js",
     "static/js/787.8d2f4323.chunk.js": "/MyCodeKnowledgebase/static/js/787.8d2f4323.chunk.js",
     "index.html": "/MyCodeKnowledgebase/index.html",
     "static/media/html.svg": "/MyCodeKnowledgebase/static/media/html.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
@@ -9,11 +9,11 @@
     "static/media/javascript.svg": "/MyCodeKnowledgebase/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "static/media/react.svg": "/MyCodeKnowledgebase/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.c5642360.css.map": "/MyCodeKnowledgebase/static/css/main.c5642360.css.map",
-    "main.c967df34.js.map": "/MyCodeKnowledgebase/static/js/main.c967df34.js.map",
+    "main.4515e032.js.map": "/MyCodeKnowledgebase/static/js/main.4515e032.js.map",
     "787.8d2f4323.chunk.js.map": "/MyCodeKnowledgebase/static/js/787.8d2f4323.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5642360.css",
-    "static/js/main.c967df34.js"
+    "static/js/main.4515e032.js"
   ]
 }
