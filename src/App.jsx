@@ -21,8 +21,8 @@ function App() {
         <h1 className='title'>My Personal Code Knowledgebase</h1>
         <Nav />
         <Routes>
-          <Route path="/" element={<Home reset={resetActivePage}/>} />
-          <Route path="/programming/:name" element={<InfoPage reset={resetActivePage}/>} />
+          <Route path="/MyCodeKnowledgeBase" element={<Home reset={resetActivePage}/>} />
+          <Route path="/MyCodeKnowledgeBase/programming/:name" element={<InfoPage reset={resetActivePage}/>} />
         </Routes>
       </Router>
     </div>
