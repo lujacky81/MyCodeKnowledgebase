@@ -13,16 +13,16 @@ function Home({reset}) {
       })
     return(
         <div className='grid'>
-            <Link to="/programming/HTML">
+            <Link to="/MyCodeKnowledgeBase/programming/HTML">
                 <img className='logo' src={HtmlLogo} alt="" />
             </Link>
-            <Link to="/programming/CSS">
+            <Link to="/MyCodeKnowledgeBase/programming/CSS">
                 <img className='logo' src={CssLogo} alt="" />
             </Link>
-            <Link to="/programming/JavaScript">
+            <Link to="/MyCodeKnowledgeBase/programming/JavaScript">
                 <img className='logo' src={JavascriptLogo} alt="" />
             </Link>
-            <Link to="/programming/React">
+            <Link to="/MyCodeKnowledgeBase/programming/React">
                 <img className='logo' src={ReactLogo} alt="" />
             </Link>
         </div>
